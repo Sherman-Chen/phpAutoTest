@@ -1,0 +1,15 @@
+{
+    "name": "c7/php_auto_test",
+    "type": "project",
+    "require": {},
+    "autoload": {
+	    "psr-4":{
+		    "c7test\\":"system/"
+	    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2",
+        "phpunit/dbunit": "^4.0",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
